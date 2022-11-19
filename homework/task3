@@ -22,8 +22,12 @@ public static class Task3 {
             int h = 7;
             int i = 8;
             int j = 9;
-            int num = (a + b + c + d + e + f + g + h + i + j) / 10;
+            int sum = a + b + c + d + e + f + g + h + i + j;
+            int num = sum / 10;                 //(a + b + c + d + e + f + g + h + i + j) / 10
+            float mod = sum % num;
 
+            System.out.println(sum);
             System.out.println(num);
+            System.out.println(mod);
         }
     }
