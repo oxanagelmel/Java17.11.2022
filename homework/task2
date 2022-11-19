@@ -3,11 +3,13 @@ public static class Task2 {
             //2. Дано трехзначное число. Вывести на экран все цифры этого числа
             int num = 123;
 
-            int div = 123 / 10;
-            int mod = 123 % 10;
+            int mod = 1 % 10;
+            int mod1 = 12 % 10;
+            int mod2 = 123 % 10;
 
             System.out.println(num);
-            System.out.println(div);
             System.out.println(mod);
+            System.out.println(mod1);
+            System.out.println(mod2);
         }
     }
