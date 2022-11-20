@@ -10,8 +10,11 @@ public static class Task4 {
             int B = 500;
             int discount = 100;
 
-            int totalCost = A + B - discount;
+            int paid = A + B - discount;
+
+            int sale = 100 - paid / (A + B);
             
-            System.out.println(totalCost);
+            System.out.println(paid);
+            System.out.println(sale);
         }
     }
